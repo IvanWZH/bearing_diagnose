@@ -1,0 +1,27 @@
+.container{
+  background-color: #eee;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  }
+  image{
+  margin-top: -100px;
+}
+
+.nav-image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+/**text{
+  display: block;
+}
+image{
+  margin-top: -100px;
+}
+text{
+  margin-bottom: 10px;
+}**/
+

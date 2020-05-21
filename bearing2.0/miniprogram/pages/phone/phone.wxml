@@ -1,0 +1,12 @@
+<view class="container">
+  <image src='/images/cate.png'  class='nav-image'></image>
+  <text>设备1、2、3、4、5</text>
+  <text>联系人：wzh</text>
+  <text>联系方式：188xxxxxxxx</text>
+  <text>设备6、7、8、9、10</text>
+  <text>联系人：spf</text>
+  <text>联系方式：188xxxxxxxx</text>
+  <text>设备11、12、13、14</text>
+  <text>联系人：szyh</text>
+  <text>联系方式：188xxxxxxxx</text>
+</view>

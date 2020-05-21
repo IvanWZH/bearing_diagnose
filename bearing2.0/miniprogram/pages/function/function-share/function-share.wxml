@@ -1,0 +1,11 @@
+<view class="container">
+  <text style='font-weight:bold;font-size:60rpx'>留言板:</text>
+
+    <view class='search'>
+            <input type='text' placeholder='输入你想要的内容' confirm-type='search' value="{{inputValue}}" bindinput='inputBind' bindconfirm='query'></input>
+            <image class="" src='/images/2.png' bindtap='query'></image>
+    </view>
+  <text>疑难解答请加QQ：</text>
+  <text>233333</text>
+  <text>留下您宝贵的意见：</text>
+</view>

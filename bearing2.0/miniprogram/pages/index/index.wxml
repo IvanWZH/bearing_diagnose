@@ -1,0 +1,39 @@
+<view  class='navs'>
+  <view class = 'nav-item'>
+    <image src='/images/01.png' class='nav-image'></image>
+    <text></text><navigator url="/pages/function/function-inspect/function-inspect">
+    设备实时监测</navigator><text></text>
+  </view>
+  <view class = 'nav-item'>
+    <image src='/images/2.png' class='nav-image'></image>
+    <text></text><navigator url="/pages/function/function-diagnosis/function-diagnosis">设备故障诊断</navigator><text></text>
+  </view>
+</view>
+<view  class='navs'>
+  <view class = 'nav-item'>
+    <image src='/images/3.png' class='nav-image'></image>
+    <text></text><navigator url="/pages/function/function-generate/function-generate">统计报表生成</navigator><text></text>
+  </view>
+  <view class = 'nav-item'>
+    <image src='/images/4.png' class='nav-image'></image>
+    <text></text><navigator url="/pages/function/function-share/function-share">交流沟通分享</navigator><text></text>
+  </view>
+</view>
+<swiper indicator-dots='{{true}}'style='background: eee#;height:255px;width:100%;'>
+<swiper-item>
+<image src='/images/bearingimage/b5.jpg'></image>
+</swiper-item>
+<swiper-item>
+<image src='/images/bearingimage/b6.jpg'></image>
+</swiper-item>
+<swiper-item>
+<image src='/images/bearingimage/b7.jpg'></image>
+</swiper-item>
+<swiper-item>
+<image src='/images/bearingimage/b8.jpg'></image>
+</swiper-item>
+<swiper-item>
+<image src='/images/bearingimage/b9.jpg'></image>
+</swiper-item>
+</swiper>
+

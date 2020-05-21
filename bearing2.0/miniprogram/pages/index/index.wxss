@@ -1,0 +1,9 @@
+.navs{display: flex;}
+.nav-item{
+  width: 50%;
+display: flex;align-content: center;
+flex-direction: column;
+padding: 20rpx;
+}
+.nav-item .nav-image{width: 120rpx;height: 120rpx; }
+.nav-item text{padding-top: 20rpx; font-size: 25rpx; }

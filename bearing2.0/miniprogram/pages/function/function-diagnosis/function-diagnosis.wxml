@@ -1,0 +1,24 @@
+<view class="container">
+ <image src='/images/add.png'         class='nav-image'></image>
+ <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      选择文件：
+      <text style="color:#237ab7;font-weight:bold;font-size:18px">{{array[index]}}</text>
+    </view>
+  </picker>
+ <text>诊断模型:LGBM</text>
+  <view class='row'>诊断结果:
+    <text style="color:green;font-weight:bold" wx:if='{{result ==0}}'>正常</text>
+    <text style="color:orange;font-weight:bold" wx:elif='{{result ==1}}'>滚动体故障</text>
+    <text style="color:yellow;font-weight:bold" wx:elif='{{result ==2}}'>外圈故障</text>
+    <text style="color:purple;font-weight:bold"  wx:elif='{{result ==3}}'>内圈故障</text>
+    <text style="color:red;font-weight:bold"  wx:else></text>
+  </view>
+
+ <text>运维人员:Reus</text>
+ <text>联系方式:19880531</text>
+ 
+ <button bindtap='func'>一键诊断</button>
+ <button bindtap='setdata'>显示结果</button>
+ <button bindtap='gotoPage'>查看数据</button> 
+</view>
